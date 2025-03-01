@@ -1,0 +1,51 @@
+body{
+    font-family: Open Sans, Noto Sans JP, Nunito, sans-serif;
+    background-image: url(Images/background.jpg);
+    width: 1000px;
+    height: 631px;
+    background-size: cover;
+    margin: 0;
+}
+#oilwelcomeimage{
+    object-fit: cover;
+    border-radius: 50%;
+}
+h1{
+    margin: 4px;
+}
+#welcome-screen{
+    background-color: #c9ffcf;
+    border: solid 2px black;
+    width: 435px;
+    border-radius: 16px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#top-bar{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    backdrop-filter: blur(15px);
+    bottom: 0;
+}
+#theTime{
+    margin-right: 16px;
+    background-color: rgba(256, 256, 256, 0.125);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+#top-bar-title{
+    margin-left: 16px;
+    font-weight: 700;
+    background-color: rgba(256, 256, 256, 0.125);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
