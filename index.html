@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="EN_us">
+<html lang="en">
 <head>
-    <title>A Title</title>
+    <meta charset="UTF-8">
+    <title>Boom Town</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A feature minimalistic operating system to show case a fictional 1900's boom town in Texas.">
 </head>
 <body>
     <div id="top-bar">
@@ -18,13 +21,29 @@
         </p>
     </div>
 
+    <div id="desktopApps">
+        <div id="mapapp">
+            <img src="images/boomtownmaps.png" style="width: 64px; height: 64px; border-radius: 16px;" alt="boomtown maps icon">
+            <p id="mapapptext">Maps</p>
+        </div>
+    </div>
+
     <div id="welcomescreen">
         <div class="header-container">
             <p id="welcomescreenclose"></p>
             <h1 id="welcomescreenheader">Welcome</h1>
         </div>
-        <img src="Images/oil-rig-image.jpg" alt="Image of an oil rig spouting oil" width="100" height="100" id="oilwelcomeimage">
+        <img src="images/oil-rig-image.jpg" alt="Image of an oil rig spouting oil" width="100" height="100" id="oilwelcomeimage">
         <h1 id="welcomemessage">Welcome</h1>
+        <p>Use the icons to navigate and learn about our boom town <br>so you can possibly join our family!</p>
+    </div>
+
+    <div id="mapscreen">
+        <div class="header-container">
+            <p id="mapscreenclose"></p>
+            <h1 id="mapscreenheader">Welcome</h1>
+        </div>
+        <h1 id="maps">Welcome</h1>
         <p>Use the icons to navigate and learn about our boom town <br>so you can possibly join our family!</p>
     </div>
 

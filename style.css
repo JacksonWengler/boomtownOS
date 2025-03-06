@@ -1,6 +1,6 @@
 body{
     font-family: Open Sans, Noto Sans JP, Nunito, sans-serif;
-    background-image: url(Images/background.jpg);
+    background-image: url(images/background.jpg);
     width: 1000px;
     height: 631px;
     background-size: cover;
@@ -26,15 +26,28 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#mapscreen {
+    display: flex;
+    flex-direction: column;
+    background-color: #c9ffcf;
+    border: solid 2px black;
+    width: 435px;
+    border-radius: 16px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 #top-bar{
     position: absolute;
     width: 100%;
     display: flex;
     margin: 0;
-    padding: 5px;
+    padding: 0;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.25);
-    color: #fff;
+    color: #545454;
     backdrop-filter: blur(15px);
 }
 #theTime{
@@ -62,7 +75,26 @@ h1{
     flex-grow: 1;
     text-align: center;
 }
+#mapscreenheader {
+    user-select: none;
+    cursor: grab;
+    font-size: 16px;
+    border: solid;
+    border-radius: 16px;
+    background-color: rgba(128, 95, 95, 0.12);
+    flex-grow: 1;
+    text-align: center;
+}
 #welcomescreenclose {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-color: #EC6B5E;
+    border-radius: 16px;
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+}
+#mapscreenclose {
     width: 16px;
     height: 16px;
     cursor: pointer;
@@ -76,4 +108,22 @@ h1{
     align-items: center;
     width: 100%;
     margin-bottom: 10px;
+}
+#mapapp{
+    user-select: none;
+    cursor: pointer;
+}
+#desktopApps{
+    width: min-content;
+    padding-top: 64px;
+    padding-left: 16px;
+    user-select: none;
+    cursor: pointer;
+}
+#mapapptext{
+    margin-top: 0px;
+    padding-left: 9px;
+}
+.selected {
+
 }
